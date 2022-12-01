@@ -69,10 +69,13 @@ function App() {
         setReset(true);
         setStatus(0);
         setIsOld(0);
+        const newViewingPlayers = viewingPlayers.sort((a,b) => a.id - b.id);
+        setViewingPlayers(newViewingPlayers);
+        setSorted(false);
     }
   return (
     <div className="App">
-      <Header countCartItems={cartItems.length}/>
+        <h1>GOALS GOALS GOALS</h1>
       <div className='row'>
           <Main cartItems={cartItems} status={status} isOld={isOld} applyStatusFilter={applyStatusFilter} applyAgeFilter={applyAgeFilter} onAdd={onAdd} onRemove={onRemove} sortGoals={sortGoals} isSorted={isSorted} onReset={onReset} reset={isReset} players={viewingPlayers}/>
           <List cartItems={cartItems} onAdd={onAdd} onRemove={onRemove} onClear={onClear}/>

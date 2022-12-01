@@ -90,11 +90,6 @@ button.badge {
   width: 1.5rem;
 }
 
-button.add {
-  background-color: lawngreen;
-  width: 1.5rem;
-}
-
 button.remove {
   background-color: red;
   width: 5rem;
@@ -125,4 +120,8 @@ button.filter {
 
 #leftFilter {
   margin-right: 5%;
+}
+
+h1 {
+  background-color: #c69eff;
 }
