@@ -1,4 +1,3 @@
-import Header from './components/Header'
 import Main from './components/Main'
 import List from './components/List'
 import './App.css';

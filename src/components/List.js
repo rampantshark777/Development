@@ -6,7 +6,7 @@ export default function List(props) {
     return <aside className='block col-1'>
         <h2>List</h2>
         <div>
-            {cartItems.length === 0 && <div id='name'>Cart is Empty</div>}
+            {cartItems.length === 0 && <div id='name'>List is Empty</div>}
             {cartItems.map((item) => (
                 <div key={item.id} className='row'>
                     <div className='col-1' id='name'>{item.name}</div>
@@ -26,7 +26,7 @@ export default function List(props) {
                     <div className='col-2' id='name'>Average Age</div>
                     <div className='col-1' id='name'>{averageAge} years</div>
                 </div>
-                    <button onClick={() => onClear()} className='clear'>Clear Cart</button>
+                    <button onClick={() => onClear()} className='clear'>Clear List</button>
                 </>
             )}
         </div>

@@ -35,10 +35,11 @@ export default function Main(props) {
                 }
 
                 if (show) return (<Player
+                    cartItems={cartItems}
                     key={player.id}
                     player={player}
                     onAdd={onAdd}
-                    onremove={onRemove}
+                    onRemove={onRemove}
                     item={cartItems.find((current) => current.id === player.id)}
                 />)
                 else return null

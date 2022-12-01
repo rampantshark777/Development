@@ -74,9 +74,10 @@ button {
   padding: 0.3rem;
   border: 0.1rem solid black;
   background-color: hotpink;
-  width: 2.5rem;
+  width: calc(100% - 60px);
   cursor: pointer;
-  border-radius: 40%;
+  margin-top: 10px;
+  border-radius: 20px;
 }
 
 button:hover {
