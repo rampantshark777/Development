@@ -1,7 +1,7 @@
 # Development
 
 ### Link to Deployed Website
-If you used the stencil code, this is `https://<your GitHub username>.github.io/<name of your repository>`
+(https://rampantshark777.github.io/Development/)
 
 ### Goal and Value of the Application
 The goal of this application is to display a variety of soccer players (some retired and some active) and to allow the user to choose any combination of players to add to a list. Once added to the list, the user will be able to view useful statistics: the average age of the players in the list and the total number of goals scored by players on the list. This allows users to easily view statistics without having to perform the calculations manually.
